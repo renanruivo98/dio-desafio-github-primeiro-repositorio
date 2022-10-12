@@ -1,2 +1,19 @@
 Links para download do gut 
 https://git-scm.com/
+
+
+**Comandos importantes**
+O comando git add pode ser utilizado para adicionar os arquivos ignorados
+git add . ou git add *
+
+Checar o estado atual do repositório
+git status
+
+ O comando commit é usado para salvar alterações em um repositório local após fazer o staging no Git.
+ 
+git commit -m "commit message", Um comando de atalho que cria de imediato um commit com uma mensagem de commit transmitida. 
+Por padrão, git commit abre o editor de texto 
+configurado no local e solicita que uma mensagem de commit seja escrita
+
+git push origin main
+O git push é o comando em que você transfere commits a partir do seu repositório local para um repositório remoto.
